@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: blue;
+    color: white;
 }
 .football-banner img{
     width: 556px;
@@ -34,4 +36,21 @@ main{
     margin-bottom: 10px;
     font-size: 28px;
 
+}
+
+.page-footer{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.page-footer img{
+    width: 483.87px;
+    height: 110px;
+    margin: 20px;
+}
+.page-footer small{
+    margin: 20px;
+}
+.social-icon i{
+    margin: 14px;
 }
