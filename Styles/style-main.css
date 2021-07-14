@@ -9,11 +9,13 @@ header{
     background-color: blue;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 60px;
     font-family: 'Poppins', sans-serif;
 }
 header h1{
     font-size: 64px;
     font-weight: 700;
+   
 }
 a{
     width: 168px;
@@ -22,18 +24,23 @@ a{
     background: #E02C6D;
     padding: 10px 15px;
     color: white;
-    font-weight: 400;    
+    font-weight: 400;   
 }
 .banner{
+     
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    
+    
 }
 .football-banner img{
     width: 556px;
     height: 438px;
     transition: transform 2s;
+    
+
 }
 .football-banner img:hover{
     transform:scale(50%)  ;
@@ -113,9 +120,9 @@ group start
    
 }
 .group{
-    width: 500px;
+    width: 495px;
     height: 200px;
-      padding: 15px;
+      
        border-radius: 5px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
@@ -149,3 +156,35 @@ footer part
 .social-icon i{
     margin: 14px;
 }
+
+ /* media quaries */
+  
+ /* mobile devices */
+
+@media only screen and (max-width: 688px)
+{
+    main , header , footer{
+        width: 100%;
+    }
+
+    .playes_container,.team, .group-container, .page-footer{
+        grid-template-columns:repeat(1, 1fr) ;
+
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+    .football-banner img{
+        margin-left: 220px;
+    }
+  
+    .group{
+        margin-left: 140px;
+    }
+    footer{
+        margin-left: 70px;
+    }
+}
+
+
