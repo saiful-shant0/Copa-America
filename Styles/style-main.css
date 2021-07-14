@@ -175,6 +175,10 @@ footer part
         grid-template-columns:repeat(1, 1fr) ;
 
     }
+    header{
+        border-right: 100px;
+        border-color: blue;
+    }
 
     .banner{
         flex-direction: column;
