@@ -157,9 +157,13 @@ footer part
     margin: 14px;
 }
 
- /* media quaries */
+ /* -----------
+ media quaries 
+ ---------------*/
   
- /* mobile devices */
+ /*---------------
+  mobile devices
+  ------------- */
 
 @media only screen and (max-width: 688px)
 {
@@ -174,6 +178,7 @@ footer part
 
     .banner{
         flex-direction: column;
+       
     }
     .football-banner img{
         margin-left: 220px;
