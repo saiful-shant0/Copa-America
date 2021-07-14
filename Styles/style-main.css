@@ -1,5 +1,28 @@
+/*----------------
+ Google font popins
+------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* -----------
+header start
+----------- */
 header{
     background-color: blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+header h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+a{
+    width: 168px;
+    height: 168px;
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 400;    
 }
 .banner{
     display: flex;
@@ -10,14 +33,25 @@ header{
 .football-banner img{
     width: 556px;
     height: 438px;
-
+    transition: transform 2s;
 }
+.football-banner img:hover{
+    transform:scale(50%)  ;
+}
+
+
+/* ----------
+main Start
+----------- */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
-
+/* ------------
+Top player Info start
+---------------- */
 .playes_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -25,7 +59,6 @@ main{
 }
 .player{
     width: 300px;
-    height: 426px;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
@@ -39,6 +72,10 @@ main{
     font-size: 28px;
 
 }
+
+/* ---------
+Team start
+----------- */
 
 h2{
     text-align: center;
@@ -64,7 +101,9 @@ h2{
 
 }
 
-
+/* ----------
+group start
+------------- */
 
 .group-container{
     display: grid;
@@ -76,16 +115,10 @@ h2{
 .group{
     width: 500px;
     height: 200px;
-    margin-top: 100px;
-    
-    padding: 15px;
+      padding: 15px;
+       border-radius: 5px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-   
 }
-
 
 .group-logo{
     display: flex;
@@ -97,7 +130,9 @@ h2{
 }
 
 
-
+/* -------
+footer part
+-------- */
 .page-footer{
     display: grid;
     justify-content: center;
@@ -106,7 +141,7 @@ h2{
 .page-footer img{
     width: 483.87px;
     height: 110px;
-    margin: 20px;
+  margin-top: 30px;
 }
 .page-footer small{
     margin: 20px;
